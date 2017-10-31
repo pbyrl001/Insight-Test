@@ -4,7 +4,7 @@ I attempted to follow through on the Insight Data Engineering Coding Challenge. 
 
 ## Getting Started
 
-You can just run the program as is with an input.txt file in your directory. It is written in Python 2.7.
+You can just run the program as is with an mytestfile.txt file in your directory. It is written in Python 2.7.
 
 ### Prerequisites
 
