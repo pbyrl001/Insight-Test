@@ -20,4 +20,4 @@ When having a constant stream of data being consistently updated in a input.txt 
 
 ## Acknowledgments
 
-* Thank you to Udemy.com, Python for Dummies, and a whole host of youtube videos and Stack Overflow pages for creative workarounds and ideas.
+* Thank you to Udemy.com, Python for Dummies, and a whole host of youtube videos and Stack Overflow pages for creative work arounds and ideas.
