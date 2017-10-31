@@ -13,16 +13,12 @@ out_csv.writerows(in_txt)
 #parse information and create median values by zip file
 
 df = pd.read_csv('input.csv', header=None)
-
 df = df.groupby(11).agg({0:'first', 15:'median', 16:'first'})
-
 df.to_csv(r'medianvals_by_zip.txt', header=None, sep='|', mode='a')
 
 #parse information and create median values by date file
 
 df = pd.read_csv('input.csv', header=None)
-
 df = df.groupby(14).agg({0:'first', 15:'median', 16:'first'})
-
 df.to_csv(r'medianvals_by_date.txt', header=None, sep='|', mode='a')
 
