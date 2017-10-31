@@ -4,7 +4,7 @@ I attempted to follow through on the Insight Data Engineering Coding Challenge. 
 
 ## Getting Started
 
-You can just run the program as is with an input.txt file in your directory.
+You can just run the program as is with an input.txt file in your directory. It is written in Python 2.7.
 
 ### Prerequisites
 
@@ -12,7 +12,7 @@ You will just need to have the CSV module and Pandas module installed on your co
 
 ### Running the Program
 
-When having a constant stream of data being consistently updated in a input.txt file, you should be able to run the program and output two files: a medianvals_by_zip.txt file and a medianvals_by_date.txt file. The program essentially takes data from the input.txt file and uses the Panda groupby function and basic Python functions to rearrange and parse the data. The medianvals_by_zip.txt file will list the median values of the donor contributions by zip code. The medianvals_by_date.txt file will list median values of donor contributions by date.
+When having a constant stream of data being consistently updated in a input.txt file, you should be able to run the program and output two files: a medianvals_by_zip.txt file and a medianvals_by_date.txt file. The program essentially takes data from the mytestfile.txt file (formatted according to the FEC data dictionary) and uses the Panda groupby function and basic Python functions to rearrange and parse the data. The medianvals_by_zip.txt file will list the median values of the donor contributions by zip code. The medianvals_by_date.txt file will list median values of donor contributions by date.
 
 ## Authors
 
